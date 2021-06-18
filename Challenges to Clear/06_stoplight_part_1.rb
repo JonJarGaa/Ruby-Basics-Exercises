@@ -13,7 +13,6 @@ and "Stop!" if stoplight equals 'red'.
 
 stoplight = ['green', 'yellow', 'red'].sample
 
-
 =begin
 
 MY ANSWER: 

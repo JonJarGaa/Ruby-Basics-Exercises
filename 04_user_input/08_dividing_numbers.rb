@@ -106,6 +106,23 @@ end
 puts "#{num1} / #{num2} = #{num1.to_i / num2.to_i}"
 
 
+### ALTERNATE SOLUTION #2 SECOND GO:
+
+num1 = nil
+num2 = nil
+
+while valid_number?(num1) == false || valid_number?(num2) == false || num1 == nil || num2 == nil || (num1.to_i * num2.to_i).positive? == true 
+  puts "Please enter a number, positive or negative:  "
+  num1 = gets.chomp
+
+  puts "Please enter another (non 0) number, positive or negative (opposite sign of the first):  "
+  num2 = gets.chomp
+end
+
+puts "#{num1.to_i} divided by #{num2.to_i} = #{ num1.to_i / num2.to_i }!"
+
+
+
 
 SOLUTION:
 
