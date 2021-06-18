@@ -73,6 +73,31 @@ end
 MY ANSWER: 
 shorter than solution
 
+Here is my Second go at it: 
+
+puts "Type how many lines you want me to print the answer to 'Who's the best?'"
+
+loop do
+  puts "(Enter a number 3 or greater) ('Q' to Quit): "
+  num = gets.chomp
+  
+  if num.downcase == "q"
+    break
+  
+  elsif num.to_i < 3
+    puts "Error: Please input a number 3 or greater:"
+    next
+  
+  else
+    num.to_i.times { |x| puts "Launch School is the best!"}
+    #puts "Launch School is the best!".num.to_i.times
+  end
+end
+
+puts "Thanks for wanting to know the best online programming school.
+                        Goodbye!"
+
+
 
 SOLUTION:
 

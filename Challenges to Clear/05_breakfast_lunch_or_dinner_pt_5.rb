@@ -17,17 +17,6 @@ p meal
 
 MY ANSWER: 
 
-This one I'm not as sure, I believe: 
-
-Dinner
-Dinner
-
-because p meal prints the returned values of meal. 
-
-The first line returns "Dinner" so it is printed. 
-Second line has puts, so that is also printed. 
-
-
 
 
 

@@ -12,8 +12,9 @@ Expected output:
 true
 false
 
-HINT: String#casecmp compares the value of two strings while 
-ignoring the case of both strings.
+HINT Method for case comparing: 
+  String#casecmp compares the value of two strings while 
+  ignoring the case of both strings.
 
 =end
 

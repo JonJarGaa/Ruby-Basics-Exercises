@@ -11,7 +11,7 @@ associated with the key :dog in the pets hash.
 
 pets = { cat: 'fluffy', dog: ['sparky', 'fido'], fish: 'oscar' }
 
-pets[:dog] = 'bowser'
+pets[:dog] << 'bowser'
 
 p pets #=> {:cat=>"fluffy", :dog=>"bowser", :fish=>"oscar"}
 

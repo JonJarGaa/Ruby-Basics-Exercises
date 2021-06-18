@@ -57,6 +57,24 @@ MY ANSWER:
 Had touble doing this easily or even after trying a few different things. 
 I needed to look up Ruby Docs for .times (number) method - 
 
+SECOND GO44 (SEE ALSO 09_launch_school_printer_pt2 for more complicated program and loop structure)
+
+puts "Want to knwo who is the best online programming School?"
+
+loop do
+  puts "Enter a number for how enthusiastic you are today. Must be at least 3: "
+  num = gets.chomp.to_i
+
+  if num < 3
+    puts "ERROR: Number must be 3 or greater. Try Again"
+    next
+  else
+    num.times { |x| puts "Launch School is the best!!!" }
+    break
+  end
+end
+
+
 FROM RUBY DOCS: 
 times {|i| block } → self
 times → an_enumerator
