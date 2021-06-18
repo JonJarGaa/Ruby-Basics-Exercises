@@ -58,7 +58,7 @@ loop do
   puts "Please enter the denomiator (number must greater than '0'): "
   num2 = gets.chomp
   
-  if valid_number?(num1) && valid_number?(num2)
+  if valid_number?(num1) && valid_number?(num2) && num2 != 0
     puts "#{num1} / #{num2} = #{num1.to_i / num2.to_i}"
     break
   end  
